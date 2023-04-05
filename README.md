@@ -50,7 +50,7 @@ Not know
 Yes, \
 *AKAMAI-AP Akamai Technologies, Inc., SG* \
 *AKAMAI-ASN1, NL* \
-*GOOGLE, US* \
+*GOOGLE, US* 
 
 * Identify the "class" of IP address for each major step in the trip \
 Not know
@@ -62,7 +62,7 @@ Not know
 8
 * Can you identify your ISP from the intermediate server DNS names? \
 Yes, \
-*AKAMAI-AP Akamai Technologies, Inc., SG*
+*AKAMAI-AP Akamai Technologies, Inc., SG*\
 *AKAMAI-ASN1, NL*
 
 * Identify the "class" of IP address for each major step in the trip \
