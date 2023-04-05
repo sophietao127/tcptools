@@ -25,3 +25,45 @@ For Google, no, it didn't. \
 For Microsoft, no, it didn't
 
 ## Using "tracert"
+**tracert: www.amazon.com:** 
+* What was the target server's IP address? \
+162.219.225.118
+
+* How many hops were needed to reach the target? \
+7
+
+* Can you identify your ISP from the intermediate server DNS names? \
+Yes, \
+*AKAMAI-AP Akamai Technologies, Inc., SG*
+
+* Identify the "class" of IP address for each major step in the trip \
+Not know
+
+**tracert: www.google.com:** 
+* What was the target server's IP address? \
+142.250.65.228
+
+* How many hops were needed to reach the target? \
+10
+
+* Can you identify your ISP from the intermediate server DNS names? \
+Yes, \
+*AKAMAI-AP Akamai Technologies, Inc., SG* \
+*AKAMAI-ASN1, NL* \
+*GOOGLE, US* \
+
+* Identify the "class" of IP address for each major step in the trip \
+Not know
+
+**tracert: www.microsoft.com:** 
+* What was the target server's IP address? \
+23.52.161.62
+* How many hops were needed to reach the target? \
+8
+* Can you identify your ISP from the intermediate server DNS names? \
+Yes, \
+*AKAMAI-AP Akamai Technologies, Inc., SG*
+*AKAMAI-ASN1, NL*
+
+* Identify the "class" of IP address for each major step in the trip \
+Not know
