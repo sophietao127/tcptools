@@ -27,43 +27,65 @@ For Microsoft, no, it didn't
 ## Using "tracert"
 **tracert: www.amazon.com:** 
 * What was the target server's IP address? \
-162.219.225.118
+23.45.229.96
 
 * How many hops were needed to reach the target? \
-7
+8
 
 * Can you identify your ISP from the intermediate server DNS names? \
 Yes, \
-*AKAMAI-AP Akamai Technologies, Inc., SG*
+*seattle.compast.net*
 
-* Identify the "class" of IP address for each major step in the trip \
-Not know
+* Identify the "class" of IP address for each major step in the trip
+1. 10.0.0.1 - class A
+2. 100.93.161.131 - class A
+3. 24.153.85.89 - class A
+4. 69.139.164.81 - class A
+5. 69.139.164.81 - class A
+6. 69.139.160.217 - class A
+7. 69.139.160.217 - class A
+8. 23.45.229.96 - class A
 
 **tracert: www.google.com:** 
 * What was the target server's IP address? \
-142.250.65.228
+172.217.14.196
 
 * How many hops were needed to reach the target? \
-10
+12
 
 * Can you identify your ISP from the intermediate server DNS names? \
 Yes, \
-*AKAMAI-AP Akamai Technologies, Inc., SG* \
-*AKAMAI-ASN1, NL* \
-*GOOGLE, US* 
+*seattle.compast.net* 
 
-* Identify the "class" of IP address for each major step in the trip \
-Not know
+* Identify the "class" of IP address for each major step in the trip
+1. 10.0.0.1 - class A
+2. 100.93.161.131 - class A
+3. 24.153.85.89 - class A
+4. 69.139.164.81 - class A
+5. 69.139.164.81 - class A
+6. 24.124.128.121 - class A
+7. 24.124.128.121 - class A
+8. 50.218.57.26 - class A
+9. 108.170.245.107 - class A
+10. 108.170.245.107 - class A
+11. 108.170.245.124 - class A
+12. 172.217.14.196 - class B
 
 **tracert: www.microsoft.com:** 
 * What was the target server's IP address? \
-23.52.161.62
+23.45.229.117
 * How many hops were needed to reach the target? \
 8
 * Can you identify your ISP from the intermediate server DNS names? \
 Yes, \
-*AKAMAI-AP Akamai Technologies, Inc., SG*\
-*AKAMAI-ASN1, NL*
+*seattle.compast.net*
 
-* Identify the "class" of IP address for each major step in the trip \
-Not know
+* Identify the "class" of IP address for each major step in the trip
+1. 10.0.0.1 - class A
+2. 100.93.161.131 - class A
+3. 24.153.85.89 - class A
+4. 69.139.164.81 - class A
+5. 69.139.164.81 - class A
+6. 69.139.160.217 - class A
+7. 69.139.160.217 - class A
+8. 23.45.229.117 - class A
