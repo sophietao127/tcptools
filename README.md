@@ -89,3 +89,16 @@ Yes, \
 6. 69.139.160.217 - class A
 7. 69.139.160.217 - class A
 8. 23.45.229.117 - class A
+
+## Extra credit: Using packet-capture tools (2pts)
+* Download/install Wireshark
+* I tried to filter out any extraneous traffic so can only see the DHCP traffic, however, there is no any packert related to DHCP after filtering.
+![test image1](dhcp.png)
+
+## Extra credit: Insecure Web server (2pts)
+* Navigate to http://150.230.36.255/
+* Submit the login form with any email and password while capturing packets with Wireshark.
+* Filter out any extraneous traffic so we see only the traffic to the server
+* Take a screen shot of Wireshark showing the payload (email, password) you sent to the server
+* Store the screen shot in the Github repo
+![test image2](login.png)
